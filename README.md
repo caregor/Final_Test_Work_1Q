@@ -9,7 +9,7 @@
 
 В проекте представлена [блок-схема](https://github.com/caregor/Final_Test_Work_1Q/blob/main/FlowChart/diagram.drawio), реализованная средствами Draw.io.
 
-![diagram](https://raw.githubusercontent.com/caregor/Final_Test_Work_1Q/0f729784b63aa64bd6b80a17cfbfd83079b6657f/FlowChart/image/diagram.svg)
+![diagram](https://raw.githubusercontent.com/caregor/Final_Test_Work_1Q/a2d8db0a8a6acb4291ea12eec3ada0b91304391d/FlowChart/image/diagram.svg)
 
 ## Работа
 На вход метода подается массив строк и значение органичения. Алгоритм основан на операторе итераций ``for`` Оператор ``for`` выполняет блок операторов, пока целочисленный счетчик меньше длины входного массива. Внутри цилка проверяется условие, что длина слова меньше либо равно заданной и формируется выходной массив слов.
