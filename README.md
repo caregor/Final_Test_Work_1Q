@@ -8,3 +8,8 @@
 - Draw.io integration module v1.6.4 or above;
 
 В проекте представлена [блок-схема](https://github.com/caregor/Final_Test_Work_1Q/blob/main/FlowChart/diagram.drawio), реализованная средствами Draw.io.
+
+![diagram](https://raw.githubusercontent.com/caregor/Final_Test_Work_1Q/0f729784b63aa64bd6b80a17cfbfd83079b6657f/FlowChart/image/diagram.svg)
+
+## Работа
+На вход метода подается массив строк и значение органичения. Алгоритм основан на операторе итераций ``for`` Оператор ``for`` выполняет блок операторов, пока целочисленный счетчик меньше длины входного массива. Внутри цилка проверяется условие, что длина слова меньше либо равно заданной и формируется выходной массив слов.
