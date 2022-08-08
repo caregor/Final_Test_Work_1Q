@@ -1,10 +1,8 @@
 ﻿string[] sourceArray = new string[4] { "hello", "world", "2", ":-)" };
 const int SIZE = 3;
 
-void PrintStringArray(string[] intputData)
-{
-    Console.WriteLine("[" + string.Join(", ", intputData) + "]");
-}
+string[] modifiedArray = CutLargeWords(sourceArray, SIZE);
+PrintStringArray(modifiedArray);
 
 string[] CutLargeWords(string[] inputArray, int condition)
 {
@@ -24,5 +22,7 @@ string[] CutLargeWords(string[] inputArray, int condition)
     return resultArray;
 }
 
-string[] modifiedArray = CutLargeWords(sourceArray, SIZE);
-PrintStringArray(modifiedArray);
+void PrintStringArray(string[] intputData)
+{
+    Console.WriteLine("[" + string.Join(", ", intputData) + "]");
+}
